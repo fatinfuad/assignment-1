@@ -4,7 +4,6 @@ body{
 
 
 
-
 /* google fonts css link */
 
 .inter-fonts{
@@ -34,6 +33,7 @@ body{
 .primary-color{
     color: #4E47FF;
 }
+
 /* this is nav logo css  */
 .header-nav{
     display: flex;
@@ -76,4 +76,265 @@ body{
     height: 450px;
     background-image: url(/image/Hero-bg.png);
     background-repeat: no-repeat;
+}
+
+
+/* this is action-section */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 90px;
+}
+
+.action-img{
+    border-radius: 67px;
+}
+
+.action-content p{
+    line-height: 30px;
+    width: 517px;
+    font-weight: 400;
+    opacity: 0.5;
+    font-size: 24px;
+    
+    
+}
+.action-content h1{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+
+
+/* this is Productive Users Section  */
+.productive{
+    background-color: #e5e7ff;
+    margin: 50px 90px ;
+    border-radius: 10px;
+    height: 306px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.productive-h1{
+    font-size: 38px;
+    color: #252432;
+    padding-top: 20px;
+    
+   
+}
+
+
+
+.users{
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+/* user div padding */
+.productive-itmes{
+    height: 121px;
+}
+.productive-itmes h1{
+    
+    font-size: 80px;
+    margin: 0;
+
+    
+}
+.productive-itmes p{
+    font-size: 20px;
+     
+  margin-top: 6px;
+    opacity: 0.4;
+}
+
+
+
+/* this is form  */
+
+
+.form{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+    
+    
+    gap: 40px;
+    margin: 70px 90px;
+    
+}
+.form h1{
+    font-size: 70px;
+    text-align: center;
+    width: 40%;
+    
+    
+}
+
+
+
+ .contact-form {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #4338ca;
+}
+
+
+/* this is footer section */
+
+.footer{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.footer-content{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto ;
+    
+
+}
+
+.footer h1{
+    font-size: 100px;
+    font-family: initial;
+    color: #4E47FF;
+    font-weight: bold;
+}
+
+.footer a{
+    text-decoration: none;
+    gap: 20px;
+    padding: 20px;
+    color: #8987A1;
+    margin-right: 20px;
+    
+}
+
+
+/* this is frame setion */
+.frame-section{
+    background-color: #FFFF;
+    width: 80%;
+    margin: auto;
+   height: 696.77;
+   padding-bottom: 20px;
+}
+
+.frame{ 
+    width: 80%;
+    /* height: 696.77; */
+    margin: 80px auto;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+}
+.frame p{
+    margin-bottom: 20px;
+}
+.frame a{
+    text-decoration: none;
+    margin-top: 20px;
+   
+}
+.frame h1{
+    font-size:50px;
+    font-weight: bold;
+
+}
+.frame img{
+    border-radius: 45px;
+    margin-top: 40px;
+}
+
+/* this is feedback section */
+
+
+.feedback{
+    
+    margin: 50px 90px;
+    height: 342px;
+    
+}
+.feedback h1{
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.feedback-itmes{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+    
+    
+}
+.feedback-review{
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+.feedback-review:hover{
+    box-shadow: 10px 10px 10px #252432;
+    transition: 0.4s;
+}
+.feedback-user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.feedback-user{
+    display: flex;
+   gap: 20px;
+   align-items: center;
+}
+
+.feedback-content h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* hover effects for all button  */
+
+.btn-hover:hover{
+    background-color: #30336b;
+    
+    box-shadow:10px 10px 10px #252432 ;
+    transition: 0.4s;
 }
