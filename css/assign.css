@@ -1,0 +1,79 @@
+body{
+    background-color: #f5f8ff;
+}
+
+
+
+
+/* google fonts css link */
+
+.inter-fonts{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+
+}
+
+/* secondary colour */
+.secondary-colour{
+    color: #8987A1;
+}
+
+/* Raleway fonts */
+
+.raleway-fonts {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* this is primary color  */
+.primary-color{
+    color: #4E47FF;
+}
+/* this is nav logo css  */
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px ;
+    align-items: center;
+   
+    
+    
+}
+.logo-h4{
+    font-weight: bold;
+    font-size: 34px;
+}
+
+/* this is button section */
+.btn-1{
+    background-color: #4E47FF;
+    color: #fff;
+    border: none;
+    padding:12px  36px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+/* this is banner section css */
+.banner{
+    margin: 20px auto;
+    text-align: center;
+    width: 50%;
+
+}
+.banner-h2{
+    font-size: 43px;
+}
+
+
+.header{
+    
+    height: 450px;
+    background-image: url(/image/Hero-bg.png);
+    background-repeat: no-repeat;
+}
