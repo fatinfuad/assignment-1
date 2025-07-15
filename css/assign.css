@@ -76,6 +76,8 @@ body{
     height: 450px;
     background-image: url(/image/Hero-bg.png);
     background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 
 
